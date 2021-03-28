@@ -1,0 +1,26 @@
+{
+  "name": "javascript_coding_test",
+  "version": "1.0.0",
+  "description": "* WSL(Ubuntu 20.04.1 LTS (GNU/Linux 4.19.128-microsoft-standard x86_64)) * node v14.16.0 * npm 7.7.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oasis-forever/javascript_coding_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oasis-forever/javascript_coding_test/issues"
+  },
+  "homepage": "https://github.com/oasis-forever/javascript_coding_test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
