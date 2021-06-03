@@ -4,31 +4,13 @@
 * node v14.16.0
 * npm 7.8.0
 
-## 2. Direcroty Structure
+## 2. Test Contents
 
-```
-.
-├── functional
-│   ├── __tests__
-│   │   ├── fizzbuzz_test.js
-│   │   └── nabeatsu_test.js
-│   └── lib
-│       ├── fizzbuzz.js
-│       └── nabeatsu.js
-├── object_oriented
-│   ├── __tests__
-│   │   ├── fizzbuzz_test.js
-│   │   └── nabeatsu_test.js
-│   └── lib
-│       ├── fizzbuzz.js
-│       └── nabeatsu.js
-├─ procedual
-│   ├── fizzbuzz.js
-│   └── nabeatsu.js
-└── README.md
-```
+1. FizzBuzz
+2. Nabeatsu
+3. String comparison
 
-### 3. Clone this repogitory
+## 3. Clone this repogitory
 
 ```bash
 git clone git@github.com:oasis-forever/javacript_coding_test.git
