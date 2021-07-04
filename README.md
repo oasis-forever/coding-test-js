@@ -4,16 +4,22 @@
 * node v14.16.0
 * npm 7.8.0
 
-## 2. Test Contents
+## 2. Blog Posts
 
-1. FizzBuzz
-2. Nabeatsu
-3. String comparison
+### 2-1. FizzBuzz
 
-## 3. Clone this repogitory
+* [JavaScript Coding Test -FizzBuzz-](https://oasist-tech-notes.hatenablog.com/entry/en/javascript-coding-test/fizzbuzz)
+* [JavaScriptコーディングテスト -FizzBuzz-](https://oasist-tech-notes.hatenablog.com/entry/ja/javascript-coding-test/fizzbuzz)
+
+## 2-2. Letter Inspector
+
+* [JavaScript Coding Test -FizzBuzz-](https://oasist-tech-notes.hatenablog.com/entry/en/javascript-coding-test/letter-inspection)
+* [JavaScriptコーディングテスト -FizzBuzz-](https://oasist-tech-notes.hatenablog.com/entry/ja/javascript-coding-test/letter-inspection)
+
+## 3. Clone Repository
 
 ```bash
-git clone git@github.com:oasis-forever/javacript_coding_test.git
+$ git clone git@github.com:oasis-forever/ruby_coding_test.git
 ```
 
 ## 4. JEST install for Unit Test
