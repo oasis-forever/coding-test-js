@@ -16,6 +16,11 @@
 * [JavaScript Coding Test -FizzBuzz-](https://oasist-tech-notes.hatenablog.com/entry/en/javascript-coding-test/letter-inspection)
 * [JavaScriptコーディングテスト -FizzBuzz-](https://oasist-tech-notes.hatenablog.com/entry/ja/javascript-coding-test/letter-inspection)
 
+## 2-3. Fibonacci Numbers
+
+* [JavaScript Coding Test -Fibonacci Numbers-](https://oasist-tech-notes.hatenablog.com/entry/en/javascript-coding-test/fibonacci-numbers)
+* [JavaScriptコーディングテスト -フィボナッチ数列-](https://oasist-tech-notes.hatenablog.com/entry/ja/javascript-coding-test/fibonacci-numbers)
+
 ## 3. Clone Repository
 
 ```bash
