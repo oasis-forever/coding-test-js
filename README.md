@@ -2,7 +2,7 @@
 
 * WSL(Ubuntu 20.04.1 LTS (GNU/Linux 4.19.128-microsoft-standard x86_64))
 * node v14.16.0
-* npm 7.8.0
+* npm 7.20.5
 
 ## 2. Blog Posts
 
