@@ -1,21 +1,21 @@
 "use strict;"
 
 import {
-  fizzBuzzIfVer,
-  fizzBuzzIfAndTernaryVer,
-  fizzBuzzTernaryVer
+  fizzBuzzInIf,
+  fizzBuzzInIfAndTernary,
+  fizzBuzzInTernary
 } from "./src/fizzbuzz";
 
 const nums = [...Array(100).keys()].map(i => ++i);
 
 for (const num of nums) {
-  console.log(fizzBuzzIfVer(num));
+  console.log(fizzBuzzInIf(num));
 };
 
 for (const num of nums) {
-  console.log(fizzBuzzIfAndTernaryVer(num));
+  console.log(fizzBuzzInIfAndTernary(num));
 };
 
 for (const num of nums) {
-  console.log(fizzBuzzTernaryVer(num));
+  console.log(fizzBuzzInTernary(num));
 };

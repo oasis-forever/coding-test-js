@@ -10,7 +10,7 @@ const Application = class {
     return str.split("").sort().join("");
   }
 
-  exactly_equal_size_and_include() {
+  exactly_equal_size_and_included() {
     return this.sort_string(this.str_1) === this.sort_string(this.str_2);
   }
 }

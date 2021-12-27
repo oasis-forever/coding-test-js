@@ -1,6 +1,6 @@
 "use strict;"
 
-const goCrazyIfVer = (num) => {
+const goCrazyInIf = (num) => {
   if (num % 3 === 0 || String(num).includes("3")) {
     // Express the status of "crazy" with '!'
     return `${num}!`;
@@ -8,12 +8,12 @@ const goCrazyIfVer = (num) => {
   return `${num}`;
 }
 
-const goCrazyTernaryVer = (num) => {
+const goCrazyInTernary = (num) => {
   // Express the status of "crazy" with '!'
   return num % 3 === 0 || String(num).includes("3") ? `${num}!` : `${num}`;
 }
 
 export {
-  goCrazyIfVer,
-  goCrazyTernaryVer,
+  goCrazyInIf,
+  goCrazyInTernary,
 };

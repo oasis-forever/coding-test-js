@@ -1,6 +1,6 @@
 "use strict;"
 
-const fizzBuzzIfVer = (num) => {
+const fizzBuzzInIf = (num) => {
   if (num % 3 === 0 && num % 5 === 0) {
     return "FizzBuzz";
   } else if (num % 3 === 0) {
@@ -12,19 +12,19 @@ const fizzBuzzIfVer = (num) => {
   }
 }
 
-const fizzBuzzIfAndTernaryVer = (num) => {
+const fizzBuzzInIfAndTernary = (num) => {
   if (num % 3 === 0) {
     return num % 5 === 0 ? "FizzBuzz" : "Fizz";
   }
   return num % 5 === 0 ? "Buzz" : `${num}`;
 }
 
-const fizzBuzzTernaryVer = (num) => {
+const fizzBuzzInTernary = (num) => {
   return num % 3 === 0 ? (num % 5 === 0 ? "FizzBuzz" : "Fizz") : num % 5 === 0 ? "Buzz" : `${num}`;
 }
 
 export {
-  fizzBuzzIfVer,
-  fizzBuzzIfAndTernaryVer,
-  fizzBuzzTernaryVer
+  fizzBuzzInIf,
+  fizzBuzzInIfAndTernary,
+  fizzBuzzInTernary
 };
