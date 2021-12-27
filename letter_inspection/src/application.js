@@ -1,9 +1,9 @@
 "use strict;"
 
 const Application = class {
-  constructor(str1, str2) {
-    this._str1 = str1
-    this._str2 = str2
+  constructor(str_1, str_2) {
+    this.str_1 = str_1
+    this.str_2 = str_2
   }
 
   sort_string(str) {
@@ -11,7 +11,7 @@ const Application = class {
   }
 
   exactly_equal_size_and_include() {
-    return this.sort_string(this._str1) === this.sort_string(this._str2);
+    return this.sort_string(this.str_1) === this.sort_string(this.str_2);
   }
 }
 
