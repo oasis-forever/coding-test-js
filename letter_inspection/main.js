@@ -2,7 +2,7 @@
 
 import {
   LetterInspector
-} from "../lib/letter_inspector";
+} from "./src/letter_inspector";
 
 const str1 = 'hogefoobar';
 const str2 = 'abefghooor';

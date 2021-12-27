@@ -3,7 +3,7 @@
 import {
   goCrazyIfVer,
   goCrazyTernaryVer,
-} from "../lib/nabeatsu";
+} from "../src/nabeatsu";
 
 test("goCrazyIfVer", () => {
   expect(goCrazyIfVer(1)).toBe("1");

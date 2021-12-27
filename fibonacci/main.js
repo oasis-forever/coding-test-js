@@ -2,6 +2,6 @@
 
 import {
   fibonacci
-} from "../lib/fibonacci";
+} from "./src/fibonacci";
 
 console.log(fibonacci(0, 20));

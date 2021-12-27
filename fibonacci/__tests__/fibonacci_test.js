@@ -2,7 +2,7 @@
 
 import {
   fibonacci
-} from "../lib/fibonacci";
+} from "../src/fibonacci";
 
 test("Fibonacci1", () => {
   expect(fibonacci(0, 10)).toStrictEqual(

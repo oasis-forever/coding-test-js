@@ -3,7 +3,7 @@
 import {
   goCrazyIfVer,
   goCrazyTernaryVer,
-} from "../lib/nabeatsu";
+} from "./src/nabeatsu";
 
 const nums = [...Array(40).keys()].map(i => ++i);
 

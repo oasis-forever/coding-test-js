@@ -4,7 +4,7 @@ import {
   fizzBuzzIfVer,
   fizzBuzzIfAndTernaryVer,
   fizzBuzzTernaryVer
-} from "../lib/fizzbuzz";
+} from "../src/fizzbuzz";
 
 test("fizzBuzzIfVer", () => {
   expect(fizzBuzzIfVer(1)).toBe("1");

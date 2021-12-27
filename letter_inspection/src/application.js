@@ -1,6 +1,6 @@
 "use strict;"
 
-const LetterInspector = class {
+const Application = class {
   constructor(str1, str2) {
     this._str1 = str1
     this._str2 = str2
@@ -16,5 +16,5 @@ const LetterInspector = class {
 }
 
 export {
-  LetterInspector
+  Application
 };

@@ -4,7 +4,7 @@ import {
   fizzBuzzIfVer,
   fizzBuzzIfAndTernaryVer,
   fizzBuzzTernaryVer
-} from "../lib/fizzbuzz";
+} from "./src/fizzbuzz";
 
 const nums = [...Array(100).keys()].map(i => ++i);
 
