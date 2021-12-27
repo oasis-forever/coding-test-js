@@ -5,88 +5,24 @@ import {
   goCrazyInTernary,
 } from "../src/nabeatsu";
 
+const nums = [...Array(40).keys()].map(i => ++i);
+
 test("goCrazyInIf", () => {
-  expect(goCrazyInIf(1)).toBe("1");
-  expect(goCrazyInIf(2)).toBe("2");
-  expect(goCrazyInIf(3)).toBe("3!");
-  expect(goCrazyInIf(4)).toBe("4");
-  expect(goCrazyInIf(5)).toBe("5");
-  expect(goCrazyInIf(6)).toBe("6!");
-  expect(goCrazyInIf(7)).toBe("7");
-  expect(goCrazyInIf(8)).toBe("8");
-  expect(goCrazyInIf(9)).toBe("9!");
-  expect(goCrazyInIf(10)).toBe("10");
-  expect(goCrazyInIf(11)).toBe("11");
-  expect(goCrazyInIf(12)).toBe("12!");
-  expect(goCrazyInIf(13)).toBe("13!");
-  expect(goCrazyInIf(14)).toBe("14");
-  expect(goCrazyInIf(15)).toBe("15!");
-  expect(goCrazyInIf(16)).toBe("16");
-  expect(goCrazyInIf(17)).toBe("17");
-  expect(goCrazyInIf(18)).toBe("18!");
-  expect(goCrazyInIf(19)).toBe("19");
-  expect(goCrazyInIf(20)).toBe("20");
-  expect(goCrazyInIf(21)).toBe("21!");
-  expect(goCrazyInIf(22)).toBe("22");
-  expect(goCrazyInIf(23)).toBe("23!");
-  expect(goCrazyInIf(24)).toBe("24!");
-  expect(goCrazyInIf(25)).toBe("25");
-  expect(goCrazyInIf(26)).toBe("26");
-  expect(goCrazyInIf(27)).toBe("27!");
-  expect(goCrazyInIf(28)).toBe("28");
-  expect(goCrazyInIf(29)).toBe("29");
-  expect(goCrazyInIf(30)).toBe("30!");
-  expect(goCrazyInIf(31)).toBe("31!");
-  expect(goCrazyInIf(32)).toBe("32!");
-  expect(goCrazyInIf(33)).toBe("33!");
-  expect(goCrazyInIf(34)).toBe("34!");
-  expect(goCrazyInIf(35)).toBe("35!");
-  expect(goCrazyInIf(36)).toBe("36!");
-  expect(goCrazyInIf(37)).toBe("37!");
-  expect(goCrazyInIf(38)).toBe("38!");
-  expect(goCrazyInIf(39)).toBe("39!");
-  expect(goCrazyInIf(40)).toBe("40");
+  for (const num of nums) {
+    if (num % 3 === 0 || String(num).includes("3")) {
+      expect(goCrazyInIf(num)).toBe(`${num}!`);
+    } else {
+      expect(goCrazyInIf(num)).toBe(`${num}`);
+    }
+  };
 });
 
 test("goCrazyInTernary", () => {
-  expect(goCrazyInTernary(1)).toBe("1");
-  expect(goCrazyInTernary(2)).toBe("2");
-  expect(goCrazyInTernary(3)).toBe("3!");
-  expect(goCrazyInTernary(4)).toBe("4");
-  expect(goCrazyInTernary(5)).toBe("5");
-  expect(goCrazyInTernary(6)).toBe("6!");
-  expect(goCrazyInTernary(7)).toBe("7");
-  expect(goCrazyInTernary(8)).toBe("8");
-  expect(goCrazyInTernary(9)).toBe("9!");
-  expect(goCrazyInTernary(10)).toBe("10");
-  expect(goCrazyInTernary(11)).toBe("11");
-  expect(goCrazyInTernary(12)).toBe("12!");
-  expect(goCrazyInTernary(13)).toBe("13!");
-  expect(goCrazyInTernary(14)).toBe("14");
-  expect(goCrazyInTernary(15)).toBe("15!");
-  expect(goCrazyInTernary(16)).toBe("16");
-  expect(goCrazyInTernary(17)).toBe("17");
-  expect(goCrazyInTernary(18)).toBe("18!");
-  expect(goCrazyInTernary(19)).toBe("19");
-  expect(goCrazyInTernary(20)).toBe("20");
-  expect(goCrazyInTernary(21)).toBe("21!");
-  expect(goCrazyInTernary(22)).toBe("22");
-  expect(goCrazyInTernary(23)).toBe("23!");
-  expect(goCrazyInTernary(24)).toBe("24!");
-  expect(goCrazyInTernary(25)).toBe("25");
-  expect(goCrazyInTernary(26)).toBe("26");
-  expect(goCrazyInTernary(27)).toBe("27!");
-  expect(goCrazyInTernary(28)).toBe("28");
-  expect(goCrazyInTernary(29)).toBe("29");
-  expect(goCrazyInTernary(30)).toBe("30!");
-  expect(goCrazyInTernary(31)).toBe("31!");
-  expect(goCrazyInTernary(32)).toBe("32!");
-  expect(goCrazyInTernary(33)).toBe("33!");
-  expect(goCrazyInTernary(34)).toBe("34!");
-  expect(goCrazyInTernary(35)).toBe("35!");
-  expect(goCrazyInTernary(36)).toBe("36!");
-  expect(goCrazyInTernary(37)).toBe("37!");
-  expect(goCrazyInTernary(38)).toBe("38!");
-  expect(goCrazyInTernary(39)).toBe("39!");
-  expect(goCrazyInTernary(40)).toBe("40");
+  for (const num of nums) {
+    if (num % 3 === 0 || String(num).includes("3")) {
+      expect(goCrazyInTernary(num)).toBe(`${num}!`);
+    } else {
+      expect(goCrazyInTernary(num)).toBe(`${num}`);
+    }
+  };
 });
