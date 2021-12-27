@@ -2,8 +2,8 @@
 
 const Application = class {
   constructor(str_1, str_2) {
-    this.str_1 = str_1
-    this.str_2 = str_2
+    this.str_1 = str_1;
+    this.str_2 = str_2;
   }
 
   exactly_equal_size_and_included() {
