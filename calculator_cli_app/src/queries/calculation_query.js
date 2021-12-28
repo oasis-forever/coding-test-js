@@ -12,7 +12,7 @@ const CalculationQuery = class {
     } else if (n == 2) {
       return 2;
     } else if (n % 2 == 0) {
-      return f(n - 1) + f(n - 2) + f(n - 3) + f(n - 4)
+      return this.f(n - 1) + this.f(n - 2) + this.f(n - 3) + this.f(n - 4)
     } else {
       return this._ask_server(n);
     }
