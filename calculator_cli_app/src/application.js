@@ -10,10 +10,10 @@ const Application = class {
   }
 
   run() {
-    validate(this.args_size, this.seed, this.n);
+    validate(this.args_size, this.seed, parseInt(this.n));
 
-    const result = this._calulation_query().f(n)
-    console.log(result)
+    const result = this._calulation_query().f(parseInt(this.n));
+    console.log(result);
   }
 
   // private
