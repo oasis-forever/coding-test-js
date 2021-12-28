@@ -30,6 +30,7 @@ const CalculationQuery = class {
   }
 
   _ask_server(n) {
+    let result = null;
     http.get(`${this._uri()}?seed=${this.seed}&n=${n}`, (res) => {
       let body = "";
       res.setEncoding("utf8");
@@ -39,13 +40,13 @@ const CalculationQuery = class {
       });
 
       res.on("end", (res) => {
-        const result = JSON.parse(body).result;
-        return parseInt(result);
+        result = JSON.parse(body).result;
       });
 
     }).on("error", (e) => {
-      return e.message;
+      result = e.message;
     });
+    return result;
   }
 }
 
