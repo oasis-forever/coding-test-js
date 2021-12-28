@@ -10,7 +10,7 @@ const Application = class {
   }
 
   run() {
-    validate;
+    validate(this.args_size, this.seed, this.n);
 
     const result = this._calulation_query().f(n)
     console.log(result)
