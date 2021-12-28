@@ -15,6 +15,5 @@ test("test_f_with_two", () => {
 });
 
 test("test_f_with_four", () => {
-  // fixme: NaN returned
-  expect(calulation_query.f(4)).toBe(148);
+  expect(calulation_query.f(4)).toBe(348);
 });
