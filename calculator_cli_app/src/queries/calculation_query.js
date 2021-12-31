@@ -30,7 +30,7 @@ const CalculationQuery = class {
   }
 
   _ask_server(n) {
-    let result = null;
+    let result;
     http.get(`${this._uri()}?seed=${this.seed}&n=${n}`, (res) => {
       let body = "";
       res.setEncoding("utf8");
